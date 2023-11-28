@@ -42,3 +42,44 @@ ul.answers {
 h2.questions {
     font-size: 36px;
 }
+
+#timer {
+    font-style: italic;
+    font-size:x-large 24px;
+}
+
+.game-over {
+    display: none;
+}
+
+form {
+    padding-top: 30px;
+}
+
+#clear-scores {
+    background-color: lavender;
+    font-size: large;
+    border-radius: 5px;
+}
+
+#submit-button {
+    background-color: orange;
+    font-size: 16px;
+    border-radius: 4px
+}
+
+.lastscore {
+    font-size: 20px;
+}
+
+.Finalscore {
+    font-size: 20px;
+}
+
+.Enterinit {
+    font-size: 20px;
+}
+
+.High {
+    font-size: 20px;
+}

@@ -9,8 +9,7 @@
   </head>
 
   <body>
-    <div class="'highscore" style="text-align: start;">High Scores</div>
-    <div id="Timer" style="text-align: right;">Timer: 75</div>
+    <div id="Timer" style="text-align: right">Timer: 75</div>
     <h1>JavaScript Challenge</h1>
     <div class="instructions">
       Try to answer the following code-related questions within the time limit.
@@ -19,22 +18,34 @@
     </div>
     <button id="start-button">Start Quiz</button>
 
+    <div class="game">
     <section class="Quiz"></section>
     <h2 class="questions"></h2>
-    <ul class ="answers">
-    </ul>
+    <div class="answers"></div>
 
-    <section class="Quiz end"
-    <h2>You're All Done!</h2>
-    <p>Final Score</p>
+    <div class="correct-wrong"></div>
+  </div>
 
-    <div>
-        <form>Enter Initials:</form>
-        <input type="text">
-        <button>Submit</button>
-    </div>
-</section>
+    <section class="Quiz end"></section>
     
+    <section class="game-over">
+      <h2>You're All Done!</h2>
+      <p class="Finalscore">Final Score: <span class = "lastscore"></span></p>
+      <div>
+        <form class="Enterinit">Enter Initials:</form>
+        <input type="text" id="initials" />
+        <button id="submit-button">Submit</button>
+      </div>
+
+      <div>
+        <form class="High">Highscores</form>
+        
+        <button id="clear-scores">Clear Highscores</button>
+      </div>
+
+      <div class="putscore"></div>
+    </section>
+
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
